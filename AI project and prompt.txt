@@ -1,0 +1,111 @@
+- AI Powered legal document Generator and Manager - Lalit
+		- Create new legal document with AI button
+			- collect data from user for legal document i.e. rent agreement, noc, mou etc format - category - category wise user input
+			  Prompt-   -get data from user for legal document 
+				        -user get input in category wise 
+				        -category like rent agreement-get me proper information,noc ,mou 
+                 	    -all category get inside document multiple features which is they are required
+						-fetching document features and store it in there required location
+						-input data show in webpage 
+				 
+				 
+			   - rent agreement category list - 1. Identification Documents 2. Proof of Income 3. Security Deposit 4. Rental Application 5. Utilities Agreement 
+			   - NOC category List - 1. Tenant's Identification Documents 2. Rental Agreement 3. Proof of Income 4. Tenant's Contact Information 5. Purpose of NOC 
+			   - MOU category list - 1. Identification Documents 2. Contact Information 3. Purpose of the MOU 4. Duration of the Agreement 5. Term and condition 6. Witnesses or Notarization (if required)
+			- AI prompt for legal document
+			     prompt - write suitable prompt for ai
+				        - ai take some action on given prompt
+				        - ai getting information on given prompt 
+				        - give valuable responce
+				 
+			- API for legal document generation from AI tool through prompt
+			     prompt - get api for legal document
+				        - using ai tool through help with prompt
+						- write some valuble prompt and send to ai tool
+						- ai should be check and return valuable responce
+			     
+		- Show legal document in front end
+		         prompt - get input through user 
+				        - send it to ai 
+						- ai validate to this user input data
+						- give responce to ai 
+                        - that data will show in front end						
+			   
+			- add inline html editing feature for legal document
+			     prompt - get or show legal document in ui or front end 
+				        - add feature inline html editing for legal document webpage
+						- 
+				 
+				 
+			- page layout customization options should be at aside
+			- save page with API and into database
+		- list of all created legal documents - edit, view and delete buttons
+		- single legal document view
+			- page layout customization options should be at aside
+			- print page
+			- download pdf
+			- share pdf or link or image
+			
+			
+	- AI Powered Certificate Manager - Lalit
+		- Add master certificate - pre designed, pre printed
+		- View master certificate - edit, view, delete 
+		- Issue Certificate
+		- View issue certificate - edit, view, delete, print, share, download
+		- Upload pre-designed certificates
+		- View all pre-designed certificates
+		- Customize pre-designed certificates with cloud editor
+		
+	- AI Powered Letter Manager - Poonam
+		- Add master Letter - pre designed, pre printed
+		- View master Letter - edit, view, delete 
+		- Issue Letter
+		- View issue Letter - edit, view, delete, print, share, download
+		- Upload pre-designed Letter
+		- View all pre-designed Letter
+		- Customize pre-designed Letter with cloud editor
+		
+	- AI Powered Digital Visiting Card Manager - Shivani
+		- Add master Visiting Card - pre designed, pre printed
+		- View master Visiting Card - edit, view, delete 
+		- Issue Visiting Card - self, others
+		- View issue Visiting Card - edit, view, delete, print, share, download
+		- Upload pre-designed Visiting Card
+		- View all pre-designed Visiting Card
+		- Customize pre-designed Visiting Card with cloud editor
+		
+	- AI Powered Digital Social Media Post Manager - poonam
+		- Add master Social Media Post - pre designed, pre printed
+		- View master Social Media Post - edit, view, delete 
+		- Issue Social Media Post - self, others
+		- View issue Social Media Post - edit, view, delete, print, share, download
+			- Auto Post on All Connected Social Sites
+			- Share post on social sites
+		- Upload pre-designed Social Media Post
+		- View all pre-designed Social Media Post
+		- Customize pre-designed Social Media Post with cloud editor
+		
+		
+	- AI Powered Website Generator (CMS) - Mayur
+		- Page Single view - if simple then show html view, layout - layout view, news type - news view with news customization, blog view - show html view and comments
+		- AI button for component content generation
+			- Form to get user inputs for AI prompt
+			- API to generate content with AI
+		- AI button for page layout generation - which will generate all page sections
+			- Form to get user inputs for AI prompt
+			- API to generate page sections with AI
+		- show config modal at right side with close option
+		- change config input field sequence as per html heirerchy - Laxmikant
+		- write css style and it should immediately reflect in page preview
+		
+	- AI Powered assignment checker with Jira - Kalpesh
+		- Submit Assignment form in frontend
+			- Save all submitted assignments
+		- View all assignments - view, edit, delete, check assignment with AI
+			- single view - instructions, sample or points, user assignment
+		- Assignment checker api with AI - input - instructions, sample or points, user assignment (code, content)
+			- prepare prompt to check assignment
+			- get assignment response and send through api response
+		
+		- After change status in JIRA to development done then get assignment code from git and submit for assignment checker API
+		- After assignment checker response from AI then change Jira task/issue status based on assignment status - Done, Bug Found
